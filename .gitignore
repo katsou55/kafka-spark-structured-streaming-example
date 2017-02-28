@@ -1,0 +1,29 @@
+# scala
+project/
+target/*
+*.class
+
+# intelij
+.idea/*
+
+*.iml
+*.ipr
+*.iws
+.idea
+out
+
+# vim
+.*.swp
+.*.swo
+*~
+
+# mac
+.DS_Store
+
+# data
+*data
+
+#spark
+checkpointData/
+spark-warehouse/
+dataParquet/
